@@ -1,0 +1,44 @@
+name: SurvivalV2-Main
+version: '${project.version}'
+main: de.rohrjaspi.survivalv2main.Main
+api-version: '1.20'
+author: RohrJaspi
+loadbefore:
+  - RealScoreboard
+  - WorldGuard
+  - SuperbVote
+softdepend:
+  - Vault
+  - LuckPerms
+
+commands:
+  fly:
+    permission: survival.commands.fly
+  heal:
+    permission: survival.commands.heal
+  money:
+  pay:
+  ränge:
+  social:
+  spawn:
+  sethome:
+  delhome:
+  home:
+  troll:
+  kistenshop:
+  belohnung:
+  adminshop:
+  sign:
+  rename:
+  hat:
+  gems:
+  vanish:
+    permission: survival.commands.vanish
+  invsee:
+    permission: survival.commands.invsee
+  antilag:
+    permission: survial.commands.antilag
+  home:
+  sethome:
+  delhome:
+  vote:
